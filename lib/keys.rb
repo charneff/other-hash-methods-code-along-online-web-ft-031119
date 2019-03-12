@@ -10,6 +10,7 @@ require 'pry'
 
 def get_the_keys(groceries)
   groceries.keys
-  groceries.values
+  groceries.values.flatten
+  binding.pry
   #code your solution here!
 end
